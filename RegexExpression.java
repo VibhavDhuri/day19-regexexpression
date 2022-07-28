@@ -12,7 +12,7 @@ public class RegexExpression {
 
 	public static void main(String[] args) {
 
-		String pattern = "^[a-zA-Z0-9]+[@]{1}+[a-zA-Z]+[.]{1}[a-z]{2,3}$";
+		String pattern = "^[a-zA-Z0-9]+[@]{1}[a-zA-Z][.]{1}[a-z]{2,3}$";
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Please enter email ID: ");
